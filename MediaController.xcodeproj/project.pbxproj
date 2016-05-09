@@ -13,6 +13,7 @@
 		8FF5D0A61CE0E16E0068B5D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FF5D0A41CE0E16E0068B5D2 /* Main.storyboard */; };
 		8FF5D0A81CE0E16E0068B5D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FF5D0A71CE0E16E0068B5D2 /* Assets.xcassets */; };
 		8FF5D0AB1CE0E16E0068B5D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FF5D0A91CE0E16E0068B5D2 /* LaunchScreen.storyboard */; };
+		8FF5D0B51CE0E17C0068B5D2 /* KEMediaController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FF5D0B41CE0E17C0068B5D2 /* KEMediaController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		8FF5D0A71CE0E16E0068B5D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8FF5D0AA1CE0E16E0068B5D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8FF5D0AC1CE0E16E0068B5D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FF5D0B31CE0E17C0068B5D2 /* KEMediaController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KEMediaController.h; sourceTree = "<group>"; };
+		8FF5D0B41CE0E17C0068B5D2 /* KEMediaController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KEMediaController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		8FF5D09A1CE0E16E0068B5D2 /* MediaController */ = {
 			isa = PBXGroup;
 			children = (
+				8FF5D0B21CE0E1730068B5D2 /* External */,
 				8FF5D09E1CE0E16E0068B5D2 /* AppDelegate.h */,
 				8FF5D09F1CE0E16E0068B5D2 /* AppDelegate.m */,
 				8FF5D0A11CE0E16E0068B5D2 /* ViewController.h */,
@@ -77,6 +81,15 @@
 				8FF5D09C1CE0E16E0068B5D2 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8FF5D0B21CE0E1730068B5D2 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				8FF5D0B31CE0E17C0068B5D2 /* KEMediaController.h */,
+				8FF5D0B41CE0E17C0068B5D2 /* KEMediaController.m */,
+			);
+			name = External;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +164,7 @@
 			files = (
 				8FF5D0A31CE0E16E0068B5D2 /* ViewController.m in Sources */,
 				8FF5D0A01CE0E16E0068B5D2 /* AppDelegate.m in Sources */,
+				8FF5D0B51CE0E17C0068B5D2 /* KEMediaController.m in Sources */,
 				8FF5D09D1CE0E16E0068B5D2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
